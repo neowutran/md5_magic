@@ -1,0 +1,12 @@
+[package]
+name = "md5_magic"
+version = "0.1.0"
+authors = ["Neowutran <me@neowutran.ovh>"]
+edition = "2018"
+
+[dependencies]
+md5 = "0"
+docopt = "1"
+serde = { version = "1", features = ["derive"] }
+regex = "1"
+num_cpus = "1"
